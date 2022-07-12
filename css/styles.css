@@ -20,9 +20,9 @@ Variables
 
 :root {
   /* --clr-primary: #fd7e14; */
-   --clr-primary:  #f2207c;
+  --clr-primary: #f2207c;
   --clr-primary-light: #3adda2;
-  --clr-secondary:#f9b922;
+  --clr-secondary: #f9b922;
   --clr-grey-1: #003366;
   --clr-grey-5: #003366;
   --clr-grey-10: #f1f5f8;
@@ -642,8 +642,6 @@ About
   border: 0.5rem solid var(--clr-primary);
   background: var(--clr-primary);
   max-width: 30rem;
-  width: 29rem;
-  height: 29rem;
   /* extra stuff */
   overflow: hidden;
 }
@@ -754,13 +752,11 @@ resources
   padding-bottom: 0;
 }
 
-
-
-.product-category{
+.product-category {
   font-family: var(--ff-secondary);
   font-size: 1rem;
   margin-bottom: 0.5rem;
-  color:var(--clr-primary-light);
+  color: var(--clr-primary-light);
   letter-spacing: var(--spacing);
 }
 
