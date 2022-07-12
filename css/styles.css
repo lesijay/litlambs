@@ -642,6 +642,8 @@ About
   border: 0.5rem solid var(--clr-primary);
   background: var(--clr-primary);
   max-width: 30rem;
+  width: 29rem;
+  height: 29rem;
   /* extra stuff */
   overflow: hidden;
 }
