@@ -319,7 +319,7 @@ Header
       rgba(255, 255, 255, 0.8),
       rgba(255, 255, 255, 0.8)
     ),
-    url(../images/background-header.png);
+    url(../images/background-header.webp);
   background-repeat: no-repeat;
   background-repeat: no-repeat;
   background-size: contain;
@@ -337,7 +337,7 @@ Header
       rgba(255, 255, 255, 0.8),
       rgba(255, 255, 255, 0.8)
     ),
-    url(../images/background-header.png);
+    url(../images/background-header.webp);
 
   background-repeat: no-repeat;
   background-size: contain;
