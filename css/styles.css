@@ -699,9 +699,9 @@ resources
   transform: scale(1.02);
 }
 .product-price {
-  color: var(--clr-primary-light) !important;
-  font-size: 1.2rem;
-  font-weight: bold;
+  color: var(--clr-secondary) !important;
+  font-size: 1rem;
+  /* font-weight: bold; */
 }
 .resource-img {
   height: 17rem;
