@@ -1013,3 +1013,40 @@ Footer
 .company {
   color: var(--clr-primary);
 }
+
+
+/* ============
+Book Email Verification
+==============
+*/
+
+.input-description {
+  font-size: 0.8rem;
+  font-style: italic;
+}
+
+.center-form {
+  padding: 4rem 0;
+  width: 85vw;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+.get-email-form {
+  margin: auto;
+  width: 50vw;
+  background: var(--clr-white);
+  border-radius: var(--radius);
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: var(--transition);
+  max-width: 35rem;
+}
+/* =======
+Read Book
+==========
+*/
+
+.h15 {
+  min-height: 15vh;
+  margin-top: 3rem;
+}
