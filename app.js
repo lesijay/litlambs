@@ -46,7 +46,7 @@ function validate(form) {
   if (users.includes(inputValue)) {
     window.location = "./who-am-i.html";
   } else {
-    alert("You do not yet have permissions to view this resource");
+    alert("You do not yet have permissions to view this resource\nAlternatively, ensure you entered the correct email address");
   }
 }
 
