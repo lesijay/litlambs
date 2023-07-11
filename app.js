@@ -43,6 +43,7 @@ let users = ["lesisampson@gmail.com"];
 
 function validate(form) {
   var inputValue = form.inputbox.value;
+  console.log(inputValue);
   if (users.includes(inputValue)) {
     window.location = "./who-am-i.html";
   } else {
