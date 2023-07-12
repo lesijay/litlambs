@@ -1033,7 +1033,6 @@ Book Email Verification
 }
 .get-email-form {
   margin: auto;
-  width: 50vw;
   background: var(--clr-white);
   border-radius: var(--radius);
   text-align: center;
