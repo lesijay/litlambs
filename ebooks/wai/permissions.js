@@ -7,7 +7,7 @@ if (document.referrer != "https://www.litlambs.org/ebooks/wai/") {
 
                  // Book Access
 let route = window.location.href;
-let users = ["lesisampson@gmail.com","annatimothyemeh@gmail.com","givtj1@gmail.com","adeola4j@yahoo.com","blessingogua@gmail.com","stellakay88@gmail.com","miracleezinne28@gmail.com","lenonchihowa@gmail.com"];
+let users = ["lesisampson@gmail.com","annatimothyemeh@gmail.com","givtj1@gmail.com","adeola4j@yahoo.com","blessingogua@gmail.com","stellakay88@gmail.com","miracleezinne28@gmail.com","lenonchihowa@gmail.com","Obriko.ejiro@gmail.com"];
 
 function validate(form) {
   var inputValue = form.inputbox.value.toLowerCase();
