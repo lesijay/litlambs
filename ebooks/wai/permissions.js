@@ -11,8 +11,8 @@ let users = ["lesisampson@gmail.com","annatimothyemeh@gmail.com","givtj1@gmail.c
              "blessingogua@gmail.com","stellakay88@gmail.com","miracleezinne28@gmail.com","lenonchihowa@gmail.com"
              ,"obriko.ejiro@gmail.com","veronicachuks2015@gmail.com","faithgifted17@gmail.com","okekelinda1409@gmail.com",
              "alexbetty2014@gmail.com","mbelaobe@outlook.com","moadeloye54@gmail.com","shalomosadebe@gmail.com","dikechi59@gmail.com",
-            "zoicbuz@gmail.com","fhayvor@gmail.com","chisomwami@gmail.com","obubamiracle@gmail.com","emenikeezioma@gmail.com","priscaakpos@gmail.com"];
-
+            "zoicbuz@gmail.com","fhayvor@gmail.com","chisomwami@gmail.com","obubamiracle@gmail.com","emenikeezioma@gmail.com","priscaakpos@gmail.com",
+"euchariarufus17@gmail.com"];
 function validate(form) {
   var inputValue = form.inputbox.value.toLowerCase();
   if (users.includes(inputValue)) {
