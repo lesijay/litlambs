@@ -7,7 +7,7 @@ if (document.referrer != "https://www.litlambs.org/ebooks/wai/") {
 
                  // Book Access
 let route = window.location.href;
-let users = ["lesisampson@gmail.com"]
+let users = ["lesisampson@gmail.com","tammyy53@gmail.com"]
 //let users = ["lesisampson@gmail.com","annatimothyemeh@gmail.com","givtj1@gmail.com","adeola4j@yahoo.com",
        //      "blessingogua@gmail.com","stellakay88@gmail.com","miracleezinne28@gmail.com","lenonchihowa@gmail.com"
          //    ,"obriko.ejiro@gmail.com","veronicachuks2015@gmail.com","faithgifted17@gmail.com","okekelinda1409@gmail.com",
