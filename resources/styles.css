@@ -1,0 +1,411 @@
+/* General Styling */
+
+body {
+  font-family: "Cormorant Garamond", serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Cormorant Garamond", serif;
+}
+
+p {
+  font-size: 28px;
+  color: #5b002d;
+  line-height: 150%;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 20px; /* Adjust the padding as needed */
+  max-width: 1100px; /* Limits the maximum width to avoid excessive stretching on large screens */
+  box-sizing: border-box; /* Ensure padding is included in the width calculations */
+}
+.nav-container {
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* Ensures it stays above other content */
+  box-shadow: 0 4px 4px #ffcce5;
+}
+button {
+  background-color: #ff007b;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+button:hover {
+  background-color: #ffff;
+  color: #ff007b;
+  border: 1px solid #ff007b;
+}
+/* Navbar */
+.navbar {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.nav-links a,
+.nav-btn {
+  margin-left: 20px;
+  color: #ff007b;
+  text-decoration: none;
+}
+.nav-links a:hover {
+  color: #330019;
+  text-decoration: underline;
+}
+img {
+  max-width: 100%;
+}
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+}
+
+/* Section 2 */
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 20px;
+}
+
+.header-text {
+  max-width: 50%;
+  padding-right: 40px;
+}
+
+.header-text h1 {
+  font-size: 40px;
+  color: #99004a;
+  font-style: italic;
+  line-height: 160%;
+  font-weight: 600;
+}
+
+.header-text p {
+  line-height: 160%;
+  font-size: 25px;
+}
+.header-image img {
+  max-width: 100%;
+  padding-top: 40px;
+}
+
+/* Section 3 */
+
+.color-section h1 {
+  font-size: 38px;
+  font-style: italic;
+  font-weight: 550;
+  line-height: 150%;
+  color: #5b002d;
+}
+
+.color-section h2 {
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 100;
+  color: #5b002d;
+}
+.color-section p {
+  font-size: 25px;
+  font-weight: 100;
+  line-height: 150%;
+  text-align: left;
+}
+.content-section {
+  background-color: #ffcce5;
+  text-align: center;
+  padding: 20px;
+}
+
+.content-columns {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.content-columns div {
+  margin: 0 30px;
+}
+
+/* Section 4 */
+.plain-section h1 {
+  font-size: 48px;
+  font-weight: 550;
+  line-height: 150%;
+  color: #99004a;
+}
+.plain-section p {
+  font-size: 25px;
+}
+.plain-section span {
+  font-weight: bold;
+}
+.inside-section {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.inside-content {
+  display: flex;
+  justify-content: space-between;
+}
+.inside-content div {
+  margin: 0 20px;
+}
+.inside-content div img {
+  max-width: 100%;
+}
+
+.inside-content ul {
+  list-style-type: disc;
+  padding: 0;
+  text-align: left;
+  font-size: 28px;
+  color: #99004a;
+}
+
+.inside-content strong {
+  color: #99004a;
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: 150;
+}
+
+.inside-content p {
+  font-style: italic;
+}
+
+/* Section 5 */
+.offer-section {
+  background-color: #ffcce5;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Section 6 */
+.curated-topics-section {
+  background-color: white;
+  display: flex;
+  padding: 20px;
+}
+.curated-topics-section div {
+  margin: 0 20px;
+}
+.topics-text {
+  align-content: center;
+}
+.topics-text h1 {
+  font-size: 38px;
+  font-style: italic;
+  font-weight: 550;
+  line-height: 150%;
+  color: #99004a;
+}
+.topics-image img {
+  max-width: 100%;
+}
+
+/* Section 7 */
+
+.testimonials-section {
+  background-color: #ffcce5;
+  text-align: center;
+  padding: 20px;
+  color: #5b002d;
+}
+.testimonials-section h1 {
+  font-size: 40px;
+  font-weight: 550;
+  line-height: 150%;
+}
+.testimonials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.review-img {
+  width: 400px;
+}
+.review-img p span {
+  font-size: 1.2rem;
+  font-weight: 100;
+  font-style: italic;
+}
+.testimonials div img {
+  max-width: 100%;
+}
+
+/* Section 8 */
+.social-icon {
+  color: #ff007b;
+  font-size: 20px;
+}
+.footer {
+  justify-content: center;
+  padding: 20px;
+}
+.footer div {
+  text-align: center;
+}
+.footer-text {
+  font-size: 15px;
+  color: #5b002d;
+  font-weight: 100;
+}
+.disclaimer p {
+  font-size: 15px;
+  font-style: italic;
+  text-align: center;
+}
+
+/* General Responsive Adjustments */
+@media (max-width: 768px) {
+  /* Make sections stack in one column */
+  .header-section,
+  .content-columns,
+  .inside-content,
+  .curated-topics-section,
+  .testimonials {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Section 2: Header with Image First on Mobile */
+  .header-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Make sure the image comes before the text on mobile */
+  .header-image {
+    order: -1; /* Moves the image to come first */
+    padding-top: 0; /* Remove extra top padding on mobile */
+  }
+
+  .header-text {
+    max-width: 100%; /* Full width on mobile */
+    padding-right: 0; /* Remove right padding */
+    text-align: center; /* Center the text on mobile */
+  }
+
+  /* Adjust font sizes for mobile */
+  .header-text h1 {
+    font-size: 32px; /* Reduce font size for smaller screens */
+  }
+
+  .header-text p {
+    font-size: 22px; /* Adjust paragraph font size */
+  }
+
+  .color-section h1 {
+    font-size: 32px; /* Reduce font size for smaller screens */
+  }
+
+  .color-section p {
+    font-size: 22px; /* Adjust paragraph font size */
+  }
+  .color-section h2 {
+    font-size: 22px; /* Reduce font size for smaller screens */
+  }
+
+  .plain-section h1 {
+    font-size: 32px; /* Reduce font size for smaller screens */
+  }
+
+  .plain-section p {
+    font-size: 22px; /* Adjust paragraph font size */
+  }
+  .inside-content strong {
+    font-size: 22px; /* Reduce font size for smaller screens */
+  }
+
+  .content-columns p {
+    margin: 0;
+  }
+
+  .inside-content p {
+    font-size: 22px; /* Adjust paragraph font size */
+  }
+  /* Section 3: Collapse content into one column */
+  .content-columns {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content-columns div {
+    margin: 20px 0; /* Add space between items in the column */
+  }
+  .topics-text h1 {
+    font-size: 32px; /* Reduce font size for smaller screens */
+  }
+  .testimonials-section h1 {
+    font-size: 32px; /* Reduce font size for smaller screens */
+  }
+
+  /* Section 4: Inside Content stacked */
+  .inside-content {
+    flex-direction: column;
+  }
+
+  .inside-content div {
+    margin-bottom: 20px; /* Add spacing between sections */
+  }
+
+  /* Section 6: Curated Topics stacked */
+  .curated-topics-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  /* Testimonials stacked on mobile */
+  .testimonials {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .review-img {
+    width: 100%; /* Full width for testimonials on mobile */
+    margin-bottom: 20px; /* Add spacing between reviews */
+  }
+}
+
+/* Additional Mobile Adjustments */
+@media (max-width: 480px) {
+  /* Smaller screens further adjustments */
+  p {
+    font-size: 18px; /* Reduce paragraph font size */
+  }
+
+  h1 {
+    font-size: 30px; /* Adjust heading sizes */
+  }
+
+  button {
+    font-size: 16px; /* Adjust button text size */
+    padding: 12px 20px; /* Adjust button padding */
+  }
+}
