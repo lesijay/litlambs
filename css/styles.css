@@ -698,10 +698,14 @@ resources
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.7);
   transform: scale(1.02);
 }
-.product-price {
+.product-details {
   color: var(--clr-secondary) !important;
   font-size: 1rem;
-  /* font-weight: bold; */
+  font-weight: bold;
+  text-decoration: underline;
+}
+.product-details:hover {
+  color: var(--clr-primary);
 }
 .resource-img {
   height: 17rem;
@@ -1014,7 +1018,6 @@ Footer
   color: var(--clr-primary);
 }
 
-
 /* ============
 Book Email Verification
 ==============
@@ -1071,4 +1074,3 @@ Read Book
     height: 0;
   }
 }
-
