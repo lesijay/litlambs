@@ -111,6 +111,7 @@ img {
 .header-image img {
   max-width: 100%;
   padding-top: 40px;
+  height: 70vh;
 }
 
 /* Section 3 */
